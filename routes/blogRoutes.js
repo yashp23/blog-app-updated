@@ -11,6 +11,7 @@ const {
 //router object
 const router = express.Router();
 
+
 //routes
 // GET || all blogs
 router.get("/all-blog", getAllBlogsController);
